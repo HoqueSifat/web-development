@@ -92,7 +92,7 @@ body {
     display: flex;
     gap: 120px;
     padding: 80px;
-   
+
 }
 
 .image-section>h2 {
@@ -115,4 +115,30 @@ body {
     color: rgb(13, 19, 33);
     font-size: 20px;
     font-weight: 600;
+}
+
+/* inspiration section */
+
+.inspiration-section {
+    width: 1480px;
+    height: 775px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 90px;
+    text-align: center;
+    /* justify-content: center; */
+}
+
+.inspiration-section>h2 {
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.inspiration-section>p {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 24px;
 }
