@@ -223,7 +223,6 @@ body {
     margin: 0 auto;
     margin-top: 90px;
     text-align: center;
-    border: 2px solid red;
     border-radius: 16px;
     background-image: url('../assets/handshake.jpg');
     background-position: 100%;
@@ -280,4 +279,17 @@ body {
     display: flex;
     gap: 16px;
     margin: 0px 380px;
+}
+
+footer {
+    width: 1900px;
+    height: 100px;
+    margin-top: 80px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    display: flex;
+    align-items: center;
+    gap: 850px;
+    padding: 0px 180px;
+    border: 2px solid red;
 }
