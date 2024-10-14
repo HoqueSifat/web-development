@@ -142,3 +142,142 @@ body {
     font-weight: 400;
     margin-top: 24px;
 }
+
+/* current target section  */
+.current-target-section {
+    width: 1480px;
+    height: 560px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 90px;
+    text-align: center;
+}
+
+.current-target-section>h2 {
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.current-target-section>p {
+    color: rgb(13, 19, 33);
+    font-weight: 400;
+}
+
+.current-target-content-section {
+    display: flex;
+    gap: 24px;
+    margin-top: 48px;
+    justify-content: center;
+}
+
+.current-target-box-contet {
+    width: 520px;
+    height: 380px;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 32px;
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.current-target-box-contet>h2 {
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.current-target-box-contet>p {
+    color: rgb(13, 19, 33);
+    font-weight: 400
+}
+
+.current-target-box-contet>a {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#css-box-content {
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+
+#js-box-content {
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
+
+/* support section  */
+.support-section {
+    width: 1480px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 90px;
+    text-align: center;
+    border: 2px solid red;
+    border-radius: 16px;
+    background-image: url('../assets/handshake.jpg');
+    background-position: 100%;
+}
+
+.support-section>h2 {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 64px;
+    margin-bottom: 16px;
+}
+
+.support-section>p {
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+
+.support-section>div>input {
+    width: 548px;
+    height: 57px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10;
+    padding: 19px 20px 19px 20px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+}
+
+.support-section>div>button {
+    width: 120px;
+    height: 57px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10;
+    padding: 17px 20px 17px 20px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+}
+
+#button-text {
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.support-section>div {
+    display: flex;
+    gap: 16px;
+    margin: 0px 380px;
+}
